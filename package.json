@@ -2,7 +2,7 @@
   "name": "picalc",
   "version": "1.0.0",
   "description": "Pi Calculation for node.js",
-  "main": "PiCalcServer.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/pb12/PiCalc/issues"
   },
-  "homepage": "https://github.com/pb12/PiCalc#readme"
+  "homepage": "https://github.com/pb12/PiCalc#readme",
+  "dependencies": {
+    "decimal.js": "^10.2.0",
+    "express": "^4.17.1"
+  }
 }

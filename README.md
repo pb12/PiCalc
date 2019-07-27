@@ -4,11 +4,9 @@ Created as test application in de CloudTechnology Minor of  the The Hague Univer
 (Calculation algorithm derived from https://github.com/MikeMcl/decimal.js/issues/9  - Bailey-Borwein-Plouffe)
 
 This application depends on the js packages express and decimal.js. 
-These are included and tested with node.js v6.16 on a Centos7 Machine. 
-If any problems: delete directory "node_modules" and recreate by npm:
-Execute these commands in the working directory.
- npm install decimal.js
- npm install express
+These dependencies are automatically installed with the command: npm install
+
+Application is started with the command: node server.js
 
 Usage: <URL>?n=<number of decimals>  (default =20 if no n specified)
        returns pi and the calculation time as json data
