@@ -49,7 +49,8 @@ app.get('/', (req, res) => {
 
 });
 
-app.listen(PORT, HOST);
+var pport = process.env.PORT || 80;   
+app.listen(pport, HOST);
 console.log(`Running on http://${HOST}:${PORT}`);
 
 
